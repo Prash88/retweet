@@ -41,7 +41,6 @@ function onTweet(tweet) {
         id: tweet.id_str
     }, onReTweet);
 }
-
 // start listening to a twitter stream with the filter
 // that is in the config
 tu.filter({
