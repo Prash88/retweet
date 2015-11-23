@@ -12,7 +12,6 @@ var conf = {
 
 // going to use the tuiter node module to get access to twitter
 var tu = require('tuiter')(conf.keys);
-
 // what to do after we retweet something.
 // if it fails i really don't care unless
 // i'm debugging
