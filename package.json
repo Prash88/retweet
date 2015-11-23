@@ -14,8 +14,11 @@
   },
   "devDependencies": {},
   "optionalDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+  },
   "engines": {
-    "node": "0.8.x",
+    "node": "5.x",
     "npm": "2.1.x"
   }
 }
