@@ -23,6 +23,13 @@ function onReTweet(err) {
     }
 }
 
+function onTweeted(err) {
+    if(err) {
+        console.error("tweeting failed :(");
+        console.error(err);
+    }
+}
+
 // what to do when we get a tweet
 function onTweet(tweet) {
     // if it's flagged as a retweet or has RT
@@ -40,6 +47,10 @@ function onTweet(tweet) {
     tu.retweet({
         id: tweet.id_str
     }, onReTweet);
+
+    tu.update({
+        status: 'test'
+    }, onTweeted);
 }
 
 // start listening to a twitter stream with the filter
