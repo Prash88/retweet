@@ -1,24 +1,30 @@
 {
-  "author": "Prashanth Sampath Kumar",
   "name": "retweet",
-  "description": "A retweeting bot",
-  "private": true,
-  "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/prash88/retweet.git"
-  },
+  "version": "1.0.0",
+  "description": "Just a retweeter bot",
   "main": "index.js",
   "dependencies": {
     "tuiter": "^0.2.12"
   },
   "devDependencies": {},
-  "optionalDependencies": {},
   "scripts": {
     "start": "node index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prash88/retweet.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "prash88",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prash88/retweet/issues"
   },
   "engines": {
-    "node": "5.x",
-    "npm": "2.1.x"
-  }
+    "node": "4.1.1"
+  },
+  "homepage": "https://github.com/Prash88/retweet#readme"
 }
