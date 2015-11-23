@@ -49,7 +49,7 @@ function onTweet(tweet) {
     }, onReTweet);
 
     tu.update({
-        status: '@itisprashanth idhu attack panra panda, idhu attract panra panda'
+        status: '@itisprashanth idhu attack panra panda, idhu attract panra panda'+Math.random()
     }, onTweeted);
 }
 
