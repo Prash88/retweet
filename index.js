@@ -7,7 +7,7 @@ var conf = {
 	    access_token_key: '4327843872-PwIioRORNdxGGyNibZsc8pvydWqpcIA39XOwRf8',
 	    access_token_secret: 'eknylcC0vdZQ41rb7RDjcSvmbzgtstTKVjGq7N82clB7q'
 	},
-	terms: ['ajith','thala']
+	terms: ['ajith','thala','அஜித்','vedhalam','vedalam']
 };
 
 // going to use the tuiter node module to get access to twitter
