@@ -1,7 +1,5 @@
 // config is using environment vars so that
 // sensitive info is not in the repo
-
-
 var conf = {
 	keys: {
 	    consumer_key: 'YITzvtItTz0fPN8eFsAjZnMuX',
