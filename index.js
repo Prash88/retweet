@@ -2,12 +2,12 @@
 // sensitive info is not in the repo
 var conf = {
 	keys: {
-	    consumer_key: 'Ivu6jajZfRxc9pbXiFgjqOh3s',
-	    consumer_secret: 'k4RNCJUl106LMdCrhWbeknKakqR86Aqdmg0PtRS5WqzzEUx8i7',
-	    access_token_key: '4327843872-PwIioRORNdxGGyNibZsc8pvydWqpcIA39XOwRf8',
-	    access_token_secret: 'eknylcC0vdZQ41rb7RDjcSvmbzgtstTKVjGq7N82clB7q'
+	    consumer_key: 'YITzvtItTz0fPN8eFsAjZnMuX',
+	    consumer_secret: 'zir7pYhRV86hqdu4SHvC3HRw8QqJA6fAZ5Zb2Cs27PNNYy1qmv',
+	    access_token_key: '4368073355-Vc6FiURUPh3nXFo2Xj0cVgdmV9SAyABXh8XiTAp',
+	    access_token_secret: 'OTFNiOUu2nvjiu68IrN0mxwRsfHqfv4KIASp7Qi0MEtgq'
 	},
-	terms: ['ajith','thala','அஜித்','vedhalam','vedalam']
+	terms: ['chennairainshelp','chennaifloods','chennairains']
 };
 
 // going to use the tuiter node module to get access to twitter
