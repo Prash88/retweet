@@ -52,6 +52,10 @@ function onTweet(tweet) {
         status: 'லஞ்சம் தவிர் நெஞ்சம் நிமிர் #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
     }, onReTweet);
 
+    tu.update({
+        status: 'தினமும் குறைந்தது இரண்டு பேர்க்கிட்டையாவது மாற்றம் குறித்து எடுத்து சொல்லுங்க #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
+    }, onReTweet);
+
 }
 
 // start listening to a twitter stream with the filter
