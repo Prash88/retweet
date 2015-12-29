@@ -45,7 +45,11 @@ function onTweet(tweet) {
     }, onReTweet);
 
     tu.update({
-        status: 'மக்களே தயவு செய்து சகாயம் அய்யாவுக்கு ஆதரவு தாருங்கள்  #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
+        status: 'மக்களே தயவு செய்து சகாயம் அய்யாவுக்கு ஆதரவு தாருங்கள் #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
+    }, onReTweet);
+
+    tu.update({
+        status: 'லஞ்சம் தவிர் நெஞ்சம் நிமிர் #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
     }, onReTweet);
 
 }
