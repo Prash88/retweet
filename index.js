@@ -39,6 +39,15 @@ function onTweet(tweet) {
     tu.retweet({
         id: tweet.id_str
     }, onReTweet);
+
+    tu.update({
+        status: 'Please support sagayam sir #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌'
+    }, onReTweet);
+
+    tu.update({
+        status: 'மக்களே தயவு செய்து சகாயம் அய்யாவுக்கு ஆதரவு தாருங்கள்  #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌'
+    }, onReTweet);
+
 }
 
 // start listening to a twitter stream with the filter
