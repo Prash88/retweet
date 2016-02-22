@@ -7,7 +7,7 @@ var conf = {
 	    access_token_key: '4368073355-Vc6FiURUPh3nXFo2Xj0cVgdmV9SAyABXh8XiTAp',
 	    access_token_secret: 'OTFNiOUu2nvjiu68IrN0mxwRsfHqfv4KIASp7Qi0MEtgq'
 	},
-	terms: ['dmkfails','sagayam','sagayam2016','சகாயம்','sagayam4cm','jayafails']
+	terms: ['dmkfails','supportNTK','naamtamilar','சீமான்','நாம்தமிழர்','jayafails']
 	//terms: ['ThaaraiThappattai','Gethu','Kathakali','RajiniMurugan']
 };
 
@@ -42,19 +42,15 @@ function onTweet(tweet) {
     }, onReTweet);
 
     tu.update({
-        status: 'Please support sagayam sir #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
+        status: 'Please support Naam Tamilar Party #naamtamilar #tn2016 #WeNeedChange #நாம்தமிழர்'
     }, onReTweet);
 
     tu.update({
-        status: 'மக்களே தயவு செய்து சகாயம் அய்யாவுக்கு ஆதரவு தாருங்கள் #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
+        status: 'மக்களே தயவு செய்து நாம் தமிழர் கட்சிக்குு ஆதரவு தாருங்கள் #naamtamilar #tn2016 #WeNeedChange #நாம்தமிழர்'
     }, onReTweet);
 
     tu.update({
-        status: 'லஞ்சம் தவிர் நெஞ்சம் நிமிர் #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
-    }, onReTweet);
-
-    tu.update({
-        status: 'தினமும் குறைந்தது இரண்டு பேர்க்கிட்டையாவது மாற்றம் குறித்து எடுத்து சொல்லுங்க #sagayam2016 #WeNeedChange #திராவிடம்ஒழிக‌ #sagayam4cm'
+        status: 'தினமும் குறைந்தது இரண்டு பேர்க்கிட்டையாவது மாற்றம் குறித்து எடுத்து சொல்லுங்க #naamtamilar #tn2016 #WeNeedChange #நாம்தமிழர்'
     }, onReTweet);
 
 }
